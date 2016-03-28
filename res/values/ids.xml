@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="vv_vv_video_view"/>
+    <item type="id" name="iv_vv_back_up"/>
+    <item type="id" name="iv_vv_play"/>
+    <item type="id" name="iv_vv_pause"/>
+    <item type="id" name="iv_vv_stop"/>
+    <item type="id" name="iv_vv_fast_forward"/>
+    <item type="id" name="iv_vv_volume_reduce"/>
+    <item type="id" name="iv_vv_volume_add"/>
+    <item type="id" name="iv_vv_full_screen"/>
+    <item type="id" name="iv_vv_quit_full_screen"/>
+    <item type="id" name="seek_vv_progress_bar"/>
+    <item type="id" name="seek_vv_volume"/>
+</resources>

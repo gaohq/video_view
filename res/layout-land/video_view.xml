@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+
+        >
+
+    <VideoView
+            android:id="@id/vv_vv_video_view"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"/>
+    <!-- 视频音量调节 -->
+
+    <!-- 视频功能按钮 -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp">
+
+        <ImageView
+                android:id="@id/iv_vv_back_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/video_back_up"/>
+
+        <SeekBar
+                android:id="@id/seek_vv_progress_bar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                />
+
+        <ImageView
+                android:id="@id/iv_vv_play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/video_play"/>
+
+        <ImageView
+                android:id="@id/iv_vv_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/video_pause"/>
+
+        <ImageView
+                android:id="@id/iv_vv_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/video_stop"/>
+
+        <ImageView
+                android:id="@id/iv_vv_fast_forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/video_fast_forward"/>
+
+        <ImageView
+                android:id="@id/iv_vv_volume_reduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/video_volume_reduce"/>
+
+        <SeekBar
+                android:id="@id/seek_vv_volume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                />
+
+        <ImageView
+                android:id="@id/iv_vv_volume_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/video_volume_add"/>
+
+        <ImageView
+                android:id="@id/iv_vv_quit_full_screen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/video_quit_full_screen"/>
+    </LinearLayout>
+
+</FrameLayout>
+
